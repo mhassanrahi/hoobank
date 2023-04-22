@@ -4,7 +4,8 @@ import { arrowUp } from "../assets";
 
 const GetStarted = () => {
   return (
-    <div
+    <a
+      href="#product"
       className={`${styles.flexCenter} w-[140px]
   h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
     >
@@ -34,7 +35,7 @@ const GetStarted = () => {
           <span className="text-gradient">Started</span>
         </p>
       </div>
-    </div>
+    </a>
   );
 };
 
